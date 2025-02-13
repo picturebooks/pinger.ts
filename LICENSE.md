@@ -1,6 +1,6 @@
 BSD 3-Clause License
 
-Copyright (c) 2022, Kieran Schuler (kieran@kie.lol)
+Copyright (c) 2025, Kieran Schuler (1@kie.ac)
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

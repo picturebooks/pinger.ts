@@ -6,14 +6,14 @@ const app = express();
 app.use(express.static("public"));
 
 /**
- * Copyright (c) 2023, Kieran Schuler (uhio // kieran@k1e.io)
+ * Copyright (c) 2025, Kieran Schuler (uhwc // 1@kie.ac)
  *
- * https://github.com/uhio/pinger.ts
+ * https://github.com/uhwc/pinger.ts
  * 
  * This code is subject to the BSD 3-Clause "New" or "Revised" License authored by Regents of the University of California.
  * Information about this license can be found in the LICENSE.md file.
  *
- * pinger.ts recieved its most recent update on the 28th of April 2023
+ * pinger.ts recieved its most recent update on the 13th February 2025
  
  * Ping a website
  * @param {website} The website to ping
@@ -23,7 +23,7 @@ app.use(express.static("public"));
  * @param {noURLFix} If you're pinging a non-http/https url, set this to true
  * @example
  * const pinger = require("pinger.ts")
- * pinger.ping("k1e.io", 60000, true)
+ * pinger.ping("kie.ac", 60000, true)
  * 
  * Start a webserver
  * @param {port} The port in which you want the webserver to run on

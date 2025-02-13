@@ -7,7 +7,7 @@ const WebhookClient = require('discord.js').WebhookClient;
 const app = express();
 app.use(express.static("public"));
 /**
- * Copyright (c) 2022, Kieran Schuler (picturebooks // kieran@k1e.io)
+ * Copyright (c) 2022, Kieran Schuler (picturebooks // kieran@kie.ac)
  *
  * https://github.com/picturebooks/pinger.ts
  *
@@ -22,7 +22,7 @@ app.use(express.static("public"));
  * @param {noURLFix} If you're pinging a non-http/https url, set this to true
  * @example
  * const pinger = require("pinger.ts")
- * pinger.ping("k1e.io", 60000, true)
+ * pinger.ping("kie.ac", 60000, true)
  *
  * Start a webserver
  * @param {port} The port in which you want the webserver to run on

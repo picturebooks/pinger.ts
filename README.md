@@ -8,26 +8,26 @@ A basic yet functional website pinger, you can use this to keep repl.it, Glitch 
 
 ```js
 const pinger = require('pinger.ts');
-pinger.ping("https://k1e.io")
+pinger.ping("https://kie.ac")
 ```
 # Example Code (Interval = Custom)
 
 ```js
 const pinger = require('pinger.ts');
-pinger.ping("https://k1e.io", 10000)
+pinger.ping("https://kie.ac", 10000)
 ```
 
 # Example Code (With Logging)
 
 ```js
 const pinger = require('pinger.ts');
-pinger.ping("https://k1e.io", 30000, true)
+pinger.ping("https://kie.ac", 30000, true)
 ```
 
 # Example Code (Discord Logging)
 ```js
 const pinger = require('pinger.ts');
-pinger.dping(webhooktoken='V8LP8mnbnCkJqdwWZrCs7ib9xVnihhiXheAWRPHnrkZt6', webhookid='109337362537264548', url='https://k1e.io')
+pinger.dping(webhooktoken='V8LP8mnbnCkJqdwWZrCs7ib9xVnihhiXheAWRPHnrkZt6', webhookid='109337362537264548', url='https://kie.ac')
 ```
 This method will not let you set an interval below 10000 due to Discord's rate limiting.
 
@@ -38,7 +38,7 @@ Pinger Group allows you to ping several domains at the same time!
 const { Group } = require('pinger.ts');
 let groupPinger = new Group(); //You can pass a string to name the group if you have multiple groups
 
-['wubzy.xyz', 'k1e.io'].forEach(u => groupPinger.add(u, 5000));
+['wubzy.xyz', 'kie.ac'].forEach(u => groupPinger.add(u, 5000));
 groupPinger.startAll();
 ```
 
